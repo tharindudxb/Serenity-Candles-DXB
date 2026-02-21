@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product | Serenity Candles</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Cairo:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="lang-en">
+    <div class="background-mesh">
+        <div class="glow-orb orb-lavender"></div>
+        <div class="glow-orb orb-sand"></div>
+        <div class="glow-orb orb-gold"></div>
+    </div>
+
+    <header class="glass-header">
+        <div class="logo">
+            <span class="en">SERENITY CANDLES</span>
+            <span class="ar">شموع الصفاء</span>
+        </div>
+        <nav class="desktop-nav">
+            <a href="index.html"><span class="en">Home</span><span class="ar">الرئيسية</span></a>
+            <a href="shop.html" class="active"><span class="en">Shop</span><span class="ar">تسوق</span></a>
+            <a href="about.html"><span class="en">About</span><span class="ar">عنا</span></a>
+            <a href="contact.html"><span class="en">Contact</span><span class="ar">اتصل بنا</span></a>
+        </nav>
+        <button id="langToggle" class="lang-toggle glass-btn">عربي</button>
+    </header>
+
+    <main class="page-container" style="margin-top: 120px;">
+        <div class="product-detail glass-panel">
+            <div class="product-image-large">
+                <img src="assets/product_candle.png" alt="Desert Dawn" class="floating-pdt">
+            </div>
+            <div class="product-info-large">
+                <h1 style="margin-bottom: 0;">
+                    <span class="en">Desert Dawn</span>
+                    <span class="ar">فجر الصحراء</span>
+                </h1>
+                <p class="price large-price">350 AED</p>
+                <p class="description">
+                    <span class="en">A majestic blend of warm sand and soft lavender, capturing the ethereal beauty of a
+                        desert sunrise. Suspended in luxury glass, this piece defies gravity while elevating your space.
+                        Features up to 60 hours of burn time.</span>
+                    <span class="ar">مزيج مهيب من الرمال الدافئة واللافندر الناعم، يجسد الجمال الأثيري لشروق الشمس في
+                        الصحراء. معلق في زجاج فاخر، يتحدى الجاذبية بينما يرتقي بمساحتك. يوفر حتى 60 ساعة من
+                        الاحتراق.</span>
+                </p>
+
+                <div class="quantity-selector">
+                    <label style="display:block; margin-bottom: 10px; color: var(--color-sand);">
+                        <span class="en">Quantity</span><span class="ar">الكمية</span>
+                    </label>
+                    <input type="number" value="1" min="1" class="qty-input">
+                </div>
+
+                <button class="add-to-cart-card glass-btn primary btn-large" style="margin-top: 20px;">
+                    <span class="en">Add to Cart</span>
+                    <span class="ar">أضف إلى السلة</span>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <nav class="mobile-bottom-bar glass-panel">
+        <a href="index.html"><span class="icon">⌂</span><span class="en">Home</span><span class="ar">الرئيسية</span></a>
+        <a href="shop.html" class="active"><span class="icon">✧</span><span class="en">Shop</span><span
+                class="ar">تسوق</span></a>
+        <a href="contact.html"><span class="icon">✉</span><span class="en">Contact</span><span
+                class="ar">اتصل</span></a>
+    </nav>
+    <button class="fab-cart glass-btn primary-glow"><span class="icon">🛒</span></button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

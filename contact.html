@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Serenity Candles</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Cairo:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="lang-en">
+    <div class="background-mesh">
+        <div class="glow-orb orb-lavender"></div>
+        <div class="glow-orb orb-sand"></div>
+        <div class="glow-orb orb-gold"></div>
+    </div>
+
+    <header class="glass-header">
+        <div class="logo">
+            <span class="en">SERENITY CANDLES</span>
+            <span class="ar">شموع الصفاء</span>
+        </div>
+        <nav class="desktop-nav">
+            <a href="index.html"><span class="en">Home</span><span class="ar">الرئيسية</span></a>
+            <a href="shop.html"><span class="en">Shop</span><span class="ar">تسوق</span></a>
+            <a href="about.html"><span class="en">About</span><span class="ar">عنا</span></a>
+            <a href="contact.html" class="active"><span class="en">Contact</span><span class="ar">اتصل بنا</span></a>
+        </nav>
+        <button id="langToggle" class="lang-toggle glass-btn">عربي</button>
+    </header>
+
+    <main class="page-container" style="margin-top: 120px;">
+        <h1 class="text-center page-title">
+            <span class="en">Get in Touch</span>
+            <span class="ar">تواصل معنا</span>
+        </h1>
+
+        <div class="contact-container glass-panel">
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h2 style="color: var(--color-sand); margin-bottom: 20px;">
+                    <span class="en">Our Boutique</span>
+                    <span class="ar">البوتيك الخاص بنا</span>
+                </h2>
+                <p class="description">
+                    <span class="en">Dubai Design District (d3)<br>Building 6, Ground Floor<br>Dubai, United Arab
+                        Emirates</span>
+                    <span class="ar">حي دبي للتصميم (d3)<br>مبنى 6، الطابق الأرضي<br>دبي، الإمارات العربية
+                        المتحدة</span>
+                </p>
+                <p class="description" style="margin-top: 20px;">
+                    <strong><span class="en">Email:</span><span class="ar">البريد الإلكتروني:</span></strong>
+                    hello@serenitycandles.ae<br>
+                    <strong><span class="en">Phone:</span><span class="ar">الهاتف:</span></strong> +971 4 000 0000
+                </p>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form onsubmit="event.preventDefault(); alert('Message sent!');">
+                    <div class="form-group">
+                        <input type="text" placeholder="Name / الاسم" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email / البريد الإلكتروني" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Message / الرسالة" required></textarea>
+                    </div>
+                    <button type="submit" class="glass-btn primary btn-large" style="width: 100%;">
+                        <span class="en">Send Message</span>
+                        <span class="ar">إرسال الرسالة</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <nav class="mobile-bottom-bar glass-panel">
+        <a href="index.html"><span class="icon">⌂</span><span class="en">Home</span><span class="ar">الرئيسية</span></a>
+        <a href="shop.html"><span class="icon">✧</span><span class="en">Shop</span><span class="ar">تسوق</span></a>
+        <a href="contact.html" class="active"><span class="icon">✉</span><span class="en">Contact</span><span
+                class="ar">اتصل</span></a>
+    </nav>
+    <button class="fab-cart glass-btn primary-glow"><span class="icon">🛒</span></button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

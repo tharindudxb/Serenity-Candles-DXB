@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Serenity Candles</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Cairo:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="lang-en">
+    <div class="background-mesh">
+        <div class="glow-orb orb-lavender"></div>
+        <div class="glow-orb orb-sand"></div>
+        <div class="glow-orb orb-gold"></div>
+    </div>
+
+    <header class="glass-header">
+        <div class="logo">
+            <span class="en">SERENITY CANDLES</span>
+            <span class="ar">شموع الصفاء</span>
+        </div>
+        <nav class="desktop-nav">
+            <a href="index.html"><span class="en">Home</span><span class="ar">الرئيسية</span></a>
+            <a href="shop.html" class="active"><span class="en">Shop</span><span class="ar">تسوق</span></a>
+            <a href="about.html"><span class="en">About</span><span class="ar">عنا</span></a>
+            <a href="contact.html"><span class="en">Contact</span><span class="ar">اتصل بنا</span></a>
+        </nav>
+        <button id="langToggle" class="lang-toggle glass-btn">عربي</button>
+    </header>
+
+    <main class="page-container" style="margin-top: 120px;">
+        <h1 class="text-center page-title">
+            <span class="en">Shop Collection</span>
+            <span class="ar">تسوق المجموعة</span>
+        </h1>
+
+        <div class="shop-layout">
+            <!-- Filters -->
+            <aside class="filters glass-panel">
+                <h3>
+                    <span class="en">Filters</span>
+                    <span class="ar">تصفية</span>
+                </h3>
+                <div class="filter-group">
+                    <h4><span class="en">Category</span><span class="ar">الفئة</span></h4>
+                    <label><input type="checkbox"> <span class="en">Sunset</span><span class="ar">غروب</span></label>
+                    <label><input type="checkbox"> <span class="en">Oasis</span><span class="ar">واحة</span></label>
+                    <label><input type="checkbox"> <span class="en">Mirage</span><span class="ar">سراب</span></label>
+                </div>
+                <div class="filter-group">
+                    <h4><span class="en">Price</span><span class="ar">السعر</span></h4>
+                    <label><input type="checkbox"> <span class="en">Under 300 AED</span><span class="ar">أقل من 300
+                            درهم</span></label>
+                    <label><input type="checkbox"> <span class="en">300 - 500 AED</span><span class="ar">300 - 500
+                            درهم</span></label>
+                </div>
+            </aside>
+
+            <!-- Grid -->
+            <div class="product-grid shop-grid">
+                <!-- Item 1 -->
+                <div class="product-card glass-panel" onclick="window.location.href='product.html'">
+                    <div class="product-img-wrapper"><img src="assets/product_candle.png" alt="Desert Dawn"
+                            class="floating-pdt"></div>
+                    <div class="product-info">
+                        <h3><span class="en">Desert Dawn</span><span class="ar">فجر الصحراء</span></h3>
+                        <p class="price">350 AED</p>
+                    </div>
+                    <button class="add-to-cart-card glass-btn"><span class="en">Add</span><span
+                            class="ar">أضف</span></button>
+                </div>
+                <!-- Item 2 -->
+                <div class="product-card glass-panel" onclick="window.location.href='product.html'">
+                    <div class="product-img-wrapper"><img src="assets/product_candle.png" alt="Lavender Mirage"
+                            class="floating-pdt delay-1"></div>
+                    <div class="product-info">
+                        <h3><span class="en">Lavender Mirage</span><span class="ar">سراب اللافندر</span></h3>
+                        <p class="price">390 AED</p>
+                    </div>
+                    <button class="add-to-cart-card glass-btn"><span class="en">Add</span><span
+                            class="ar">أضف</span></button>
+                </div>
+                <!-- Item 3 -->
+                <div class="product-card glass-panel" onclick="window.location.href='product.html'">
+                    <div class="product-img-wrapper"><img src="assets/product_candle.png" alt="Golden Dune"
+                            class="floating-pdt"></div>
+                    <div class="product-info">
+                        <h3><span class="en">Golden Dune</span><span class="ar">الكثيب الذهبي</span></h3>
+                        <p class="price">420 AED</p>
+                    </div>
+                    <button class="add-to-cart-card glass-btn"><span class="en">Add</span><span
+                            class="ar">أضف</span></button>
+                </div>
+                <!-- Item 4 -->
+                <div class="product-card glass-panel" onclick="window.location.href='product.html'">
+                    <div class="product-img-wrapper"><img src="assets/product_candle.png" alt="Oasis Mist"
+                            class="floating-pdt delay-1"></div>
+                    <div class="product-info">
+                        <h3><span class="en">Oasis Mist</span><span class="ar">ضباب الواحة</span></h3>
+                        <p class="price">310 AED</p>
+                    </div>
+                    <button class="add-to-cart-card glass-btn"><span class="en">Add</span><span
+                            class="ar">أضف</span></button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <nav class="mobile-bottom-bar glass-panel">
+        <a href="index.html"><span class="icon">⌂</span><span class="en">Home</span><span class="ar">الرئيسية</span></a>
+        <a href="shop.html" class="active"><span class="icon">✧</span><span class="en">Shop</span><span
+                class="ar">تسوق</span></a>
+        <a href="contact.html"><span class="icon">✉</span><span class="en">Contact</span><span
+                class="ar">اتصل</span></a>
+    </nav>
+    <button class="fab-cart glass-btn primary-glow"><span class="icon">🛒</span></button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

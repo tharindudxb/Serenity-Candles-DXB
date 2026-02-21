@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serenity Candles | Luxury UAE Boutique</title>
+    <meta name="description"
+        content="Discover Serenity Candles, a luxury UAE boutique. Explore our Weightless Collection of minimalist, mid-air suspended candle jars.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Cairo:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="lang-en">
+    <!-- Cinematic Background Elements -->
+    <div class="background-mesh">
+        <div class="glow-orb orb-lavender"></div>
+        <div class="glow-orb orb-sand"></div>
+        <div class="glow-orb orb-gold"></div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="glass-header">
+        <div class="logo">
+            <span class="en">SERENITY CANDLES</span>
+            <span class="ar">شموع الصفاء</span>
+        </div>
+        <nav class="desktop-nav">
+            <a href="index.html" class="active"><span class="en">Home</span><span class="ar">الرئيسية</span></a>
+            <a href="shop.html"><span class="en">Shop</span><span class="ar">تسوق</span></a>
+            <a href="about.html"><span class="en">About</span><span class="ar">عنا</span></a>
+            <a href="contact.html"><span class="en">Contact</span><span class="ar">اتصل بنا</span></a>
+        </nav>
+        <button id="langToggle" class="lang-toggle glass-btn">عربي</button>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content glass-panel">
+                <h1 class="hero-title">
+                    <span class="en">Weightless<br>Collection</span>
+                    <span class="ar">مجموعة<br>انعدام الوزن</span>
+                </h1>
+                <p class="hero-subtitle">
+                    <span class="en">Defy gravity. Elevate your atmosphere.</span>
+                    <span class="ar">تحدى الجاذبية. ارتقِ بأجوائك.</span>
+                </p>
+                <a href="shop.html" class="cta-button glass-btn primary" style="text-decoration:none;">
+                    <span class="en">Explore Collection</span>
+                    <span class="ar">اكتشف المجموعة</span>
+                </a>
+            </div>
+            <div class="hero-image-container">
+                <img src="assets/hero_candle.png" alt="Floating luxury candle" class="floating-hero">
+            </div>
+        </section>
+
+        <!-- Featured Showcase -->
+        <section class="collection" id="featured">
+            <h2 class="section-title">
+                <span class="en">Featured Essences</span>
+                <span class="ar">جواهر مختارة</span>
+            </h2>
+            <div class="product-grid">
+                <div class="product-card glass-panel" onclick="window.location.href='product.html'">
+                    <div class="product-img-wrapper">
+                        <img src="assets/product_candle.png" alt="Desert Dawn Candle" class="floating-pdt">
+                    </div>
+                    <div class="product-info">
+                        <h3>
+                            <span class="en">Desert Dawn</span>
+                            <span class="ar">فجر الصحراء</span>
+                        </h3>
+                        <p class="price">350 AED</p>
+                    </div>
+                    <button class="add-to-cart-card glass-btn">
+                        <span class="en">Add</span>
+                        <span class="ar">أضف</span>
+                    </button>
+                </div>
+
+                <div class="product-card glass-panel flex-reverse" onclick="window.location.href='product.html'">
+                    <div class="product-img-wrapper">
+                        <img src="assets/product_candle.png" alt="Lavender Mirage Candle" class="floating-pdt delay-1">
+                    </div>
+                    <div class="product-info">
+                        <h3>
+                            <span class="en">Lavender Mirage</span>
+                            <span class="ar">سراب اللافندر</span>
+                        </h3>
+                        <p class="price">390 AED</p>
+                    </div>
+                    <button class="add-to-cart-card glass-btn">
+                        <span class="en">Add</span>
+                        <span class="ar">أضف</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brand Story Snippet -->
+        <section class="brand-story glass-panel">
+            <h2 class="section-title">
+                <span class="en">Our Story</span>
+                <span class="ar">قصتنا</span>
+            </h2>
+            <p class="story-text">
+                <span class="en">Born in the heart of the UAE, Serenity Candles crafts weightless illuminated art
+                    pieces. Each candle is meticulously designed to suspend in mid-air, casting a gentle cinematic glow
+                    that transforms any space into a haven of luxury and tranquility.</span>
+                <span class="ar">وُلدت شموع الصفاء في قلب الإمارات، وتصنع قطعاً فنية مضيئة منعدمة الوزن. تم تصميم كل
+                    شمعة بدقة لتبقى معلقة في الهواء، مما يلقي توهجاً سينمائياً لطيفاً يحول أي مساحة إلى ملاذ من الفخامة
+                    والهدوء.</span>
+            </p>
+            <a href="about.html" class="glass-btn primary" style="text-decoration:none; margin-top: 20px;">
+                <span class="en">Read More</span>
+                <span class="ar">اقرأ المزيد</span>
+            </a>
+        </section>
+    </main>
+
+    <!-- Mobile Bottom Bar -->
+    <nav class="mobile-bottom-bar glass-panel">
+        <a href="index.html" class="active">
+            <span class="icon">⌂</span>
+            <span class="en">Home</span><span class="ar">الرئيسية</span>
+        </a>
+        <a href="shop.html">
+            <span class="icon">✧</span>
+            <span class="en">Shop</span><span class="ar">تسوق</span>
+        </a>
+        <a href="contact.html">
+            <span class="icon">✉</span>
+            <span class="en">Contact</span><span class="ar">اتصل</span>
+        </a>
+    </nav>
+
+    <button class="fab-cart glass-btn primary-glow" onclick="alert('Cart opened!')">
+        <span class="icon">🛒</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
